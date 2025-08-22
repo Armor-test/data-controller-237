@@ -1,0 +1,40 @@
+# CODEOWNERS file for data-controller-237
+# Global owners - will be requested for all PRs
+* @Armor-test/team-reporting @Armor-test/squad-ml @Armor-test/squad-cache
+
+# Directory ownership
+/core/ @Armor-test/squad-ux @Armor-test/team-security
+/auth/ @Armor-test/squad-reporting @Armor-test/dept-release @Armor-test/team-reporting
+/vendor/ @Armor-test/dept-security @Armor-test/dept-automation
+/data/ @Armor-test/squad-database @Armor-test/grp-reporting
+/assets/ @Armor-test/squad-payments @Armor-test/grp-api
+/test/ @Armor-test/squad-performance @Armor-test/dept-api
+/modules/ @Armor-test/squad-frontend @Armor-test/squad-ml
+/ui/ @Armor-test/dept-ui @Armor-test/squad-mobile
+/migrations/ @Armor-test/squad-frontend @Armor-test/team-governance
+/config/ @Armor-test/squad-qa @Armor-test/squad-ml
+/deploy/ @Armor-test/grp-integration @Armor-test/dept-security @Armor-test/squad-cloud
+/api/ @Armor-test/squad-mobile @Armor-test/grp-payments @Armor-test/unit-test
+/examples/ @Armor-test/squad-qa @Armor-test/grp-reporting @Armor-test/dept-security
+/third_party/ @Armor-test/unit-cloud @Armor-test/dept-billing @Armor-test/team-notifications
+/lib/ @Armor-test/squad-api @Armor-test/grp-search @Armor-test/grp-api
+
+# File type ownership
+*.tsx @Armor-test/grp-ui @Armor-test/team-governance
+*.sh @Armor-test/squad-cache @Armor-test/team-notifications
+*.swift @Armor-test/squad-search @Armor-test/team-research @Armor-test/grp-payments
+*.java @Armor-test/grp-payments @Armor-test/squad-payments
+*.js @Armor-test/squad-research @Armor-test/squad-cloud @Armor-test/grp-ui
+*.cpp @Armor-test/team-reporting @Armor-test/squad-performance @Armor-test/unit-cloud
+*.graphql @Armor-test/squad-ux @Armor-test/squad-api @Armor-test/dept-reporting
+*.cs @Armor-test/dept-identity @Armor-test/dept-ui @Armor-test/squad-payments
+*.h @Armor-test/squad-research @Armor-test/squad-payments
+*.config @Armor-test/dept-logging @Armor-test/dept-test
+*.ini @Armor-test/dept-security @Armor-test/dept-reliability
+*.html @Armor-test/dept-reporting @Armor-test/squad-cache
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
